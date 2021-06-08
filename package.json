@@ -31,7 +31,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "release": "tsc && npm publish"
+    "release": "tsc --build package.tsconfig.json && npm publish"
   },
   "eslintConfig": {
     "extends": [
