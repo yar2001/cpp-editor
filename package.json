@@ -6,6 +6,11 @@
   "types": "build/index.d.ts",
   "license": "MulanPSL",
   "author": "yar2001",
+  "keywords": [
+    "cpp-editor",
+    "editor",
+    "cpp"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/yar2001/cpp-editor.git",
