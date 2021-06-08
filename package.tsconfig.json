@@ -1,11 +1,8 @@
 {
   "compilerOptions": {
-    "target": "es6",
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
-    ],
+    "target": "ESNext",
+    "module": "commonjs",
+    "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
@@ -13,16 +10,9 @@
     "strict": true,
     "forceConsistentCasingInFileNames": true,
     "noFallthroughCasesInSwitch": true,
-    "module": "esnext",
-    "isolatedModules": true,
-    "jsx": "react",
-    "moduleResolution": "node",
-    "resolveJsonModule": true,
-    "noEmit": true,
     "declaration": true,
     "outDir": "dist",
+    "jsx": "react"
   },
-  "include": [
-    "src"
-  ]
+  "exclude": ["node_modules", "dist"]
 }

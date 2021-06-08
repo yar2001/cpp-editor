@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App, { CppEditorControl } from './App';
-import reportWebVitals from './reportWebVitals';
 const unRenderedError = new Error("The editor hasn't rendered yet.");
 export class CppEditor implements CppEditorControl {
   private control?: CppEditorControl;
@@ -52,8 +51,4 @@ export class CppEditor implements CppEditorControl {
   }
 }
 
-//@ts-expect-error
-// eslint-disable-next-line no-restricted-globals
-self.CppEditor = CppEditor;
-
-reportWebVitals();
+// reportWebVitals();
